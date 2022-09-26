@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <p id="id">test</p>
+
+    <script>
+        class Test{
+            constructor(n){
+                this.data = n;
+            }
+        }
+        const test = new Test(2);
+        console.log(test.data);
+        
+        const t = document.getElementById('id').innerText = `${text.data}`;
+
+    </script>
 </body>
 </html>
